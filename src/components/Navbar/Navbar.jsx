@@ -9,9 +9,14 @@ function Navbar() {
     const toggleMenu = () =>{
         setOpenMenu(!openMenu);
     };
-    const url ='./assets/PDF/Zekarias Kobota CV.pdf'
     const handleDownload = () => {
-      window.open(url, '_blank');
+      const url = './assets/PDF/Zekarias Kobota CV.pdf';
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Zekarias Kobota CV.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     };
 
     return (

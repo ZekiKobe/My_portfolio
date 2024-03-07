@@ -71,4 +71,13 @@ function MobileNav({isOpen,toggleMenu}) {
           >Contact me</Link>
                     </li>
 
-                    <button className="contact-btn" on
+                    <button className="contact-btn" onClick={handleDownload}>Download CV</button>
+                </ul>
+            </div>
+            </div>
+
+            </>
+    )
+}
+
+export default MobileNav
