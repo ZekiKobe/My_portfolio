@@ -7,7 +7,7 @@ function MobileNav({isOpen,toggleMenu}) {
     const url = './assets/pdf/Zekarias Kobota CV.pdf';
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'Zekarias_Kobota_CV.pdf';
+    link.download = 'Zekarias Kobota CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
