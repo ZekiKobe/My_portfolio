@@ -92,13 +92,13 @@ export const PROJECTS = [
     {
         title:"Web Based CV Analysis and Illegibility Prediction System",
         icon:"./assets/images/python_bootstrap.jpeg",
+        link:"https://github.com/ZekiKobe/Web_based_CV_analysis_and_ellegibility_prediction_system_using_django",
         resposibilities:[
             "Automated parsing of CV data.",
             "Machine learning-driven eligibility predictions for job roles.",
             "Actionable CV improvement feedback for candidates.",
             "User and admin dashboards for managing profiles and job listings.",
         ],
-        link:"",
     },
 
     {
