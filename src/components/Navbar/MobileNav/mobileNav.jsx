@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 function MobileNav({isOpen,toggleMenu}) {
   const handleDownload = () => {
-    const url = './assets/pdf/Zekarias Kobota CV.pdf';
+    const url = './assets/PDF/Zekarias Kobota CV.pdf';
     const link = document.createElement('a');
     link.href = url;
     link.download = 'Zekarias Kobota CV.pdf';

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import './Navbar.css'
+import './Navbar.css';
 import MobileNav from './MobileNav/mobileNav';
 import { Link } from 'react-scroll';
+
 function Navbar() {
 
     const [openMenu, setOpenMenu] = useState(false);
