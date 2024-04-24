@@ -23,9 +23,7 @@
     border-radius: 20px;
     position: relative;
     margin: auto;
-
 }
-
 .education-content{
     display: grid;
     grid-template-columns: auto auto;
@@ -54,7 +52,7 @@
     list-style: none;
 }
 .education-right ul li.date-field{
-    background: orangered;
+    background: rgb(2, 114, 114);
     border-radius: 10px;
     text-align: center;
     width: 100%;

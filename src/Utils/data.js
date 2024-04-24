@@ -58,7 +58,6 @@ export const WORK_EXPERIENCE = [
         date:"Nov 2023 - Present",
         resposibilities:[
             "Responsible for ensuring the efficiency and effectiveness of information flow across various departments.",
-            "Manages databases, software applications, and hardware infrastructure to support information management.",
             "Analyzes data trends and generates reports to support decision-making processes.",
             "Designs, develops, and implements MIS solutions to meet the organization's needs."
         ],
@@ -95,7 +94,7 @@ export const PROJECTS = [
         link:"https://github.com/ZekiKobe/Web_based_CV_analysis_and_ellegibility_prediction_system_using_django",
         resposibilities:[
             "Automated parsing of CV data.",
-            "Machine learning-driven eligibility predictions for job roles.",
+            "NLP-driven eligibility predictions for job roles.",
             "Actionable CV improvement feedback for candidates.",
             "User and admin dashboards for managing profiles and job listings.",
         ],

@@ -14,7 +14,7 @@ function Hero() {
             alt=""
           />
           , My name is{" "}
-          <span style={{ color: "orangered" }}>Zekarias Kobota </span>
+          <span style={{ color: "cyan" }}>Zekarias Kobota </span>
         </h2>
         <p>
           I am a Passionate Full Stack Developer | Transforming Ideas Into
@@ -27,7 +27,7 @@ function Hero() {
           <div className="tech-icon">
             <img src="./assets/images/node.png" alt="" />
           </div>
-          <img src="./assets/images/me.png" alt="" />
+          <img src="./assets/images/cho.png" alt="" style={{borderRadius:'40%',border:'4px solid cyan'}} />
         </div>
         <div>
           <div className="tech-icon">
