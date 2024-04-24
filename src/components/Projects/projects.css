@@ -1,9 +1,36 @@
 .project-container{
-
     margin: 4rem 0;
     position: relative;
 }
+.project-container::after,
+.project-container::before{
+    background-color: cyan;
+}
 
+.project-container::after,
+.project-container::before{
+
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: rgb(6, 155, 155);
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+
+}
+
+.project-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+
+.project-container::before{
+    background:cyan;
+    bottom: 0rem;
+    right: 0rem;
+}
 .project-container h5{
     font-size: 1.5rem;
     font-weight: 600;

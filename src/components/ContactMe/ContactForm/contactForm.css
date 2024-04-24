@@ -22,12 +22,13 @@ form textarea{
     width: 100%;
     font-size: 0.9rem;
     color: #fff;
-    background: #130f2a;
+    background: #044658;
     border-radius: 0.6rem;
     border: 1.5px slodi 6751b9;
     padding: 1rem;
 }
 form button{
+    width: 50%;
     font-size: 1rem;
     font-weight: 500;
     color: #fff;

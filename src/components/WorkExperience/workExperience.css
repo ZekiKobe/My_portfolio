@@ -3,7 +3,35 @@
     margin: 4rem 0;
     position: relative;
 }
+.experience-container::after,
+.experience-container::before{
+    background-color: cyan;
+}
 
+.experience-container::after,
+.experience-container::before{
+
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: rgb(6, 155, 155);
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+
+}
+
+.experience-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+
+.experience-container::before{
+    background:cyan;
+    bottom: 0rem;
+    right: 0rem;
+}
 .experience-container h5{
     font-size: 1.5rem;
     font-weight: 600;

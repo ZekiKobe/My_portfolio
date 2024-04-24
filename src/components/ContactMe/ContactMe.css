@@ -6,6 +6,35 @@
     box-shadow: 2px 2px 2px cyan;
     border-radius: 10px;
 }
+.contact-container::after,
+.contact-container::before{
+    background-color: cyan;
+}
+
+.contact-container::after,
+.contact-container::before{
+
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: rgb(6, 155, 155);
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+
+}
+
+.contact-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+
+.contact-container::before{
+    background:cyan;
+    bottom: 0rem;
+    right: 0rem;
+}
 
 .contact-container h5{
 
