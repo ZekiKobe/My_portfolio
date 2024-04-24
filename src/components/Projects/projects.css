@@ -12,7 +12,7 @@
 .project-container hr{
     width: 200px;
     height: 0.4rem;
-    background: #6751b9;
+    background: rgb(2, 88, 88);
     border-radius: 10px;
     margin: auto;
     margin-bottom: 20px;
@@ -28,7 +28,7 @@
     justify-content: center;
     color: #6751b9;
     border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
+    border: 1.5px solid cyan;
     background: #130f2a;
     position: absolute;
     top: 55%;

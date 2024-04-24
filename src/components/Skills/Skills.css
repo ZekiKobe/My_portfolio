@@ -2,6 +2,10 @@
     margin: 4rem 0;
     position: relative;
 }
+.skills-container::after,
+.skills-container::before{
+    background-color: cyan;
+}
 
 .skills-container::after,
 .skills-container::before{
@@ -10,7 +14,7 @@
     width: 28rem;
     height: 28rem;
     border-radius: 28.125rem;
-    background: #7c66e3;
+    background: rgb(6, 155, 155);
     position: absolute;
     z-index: -1;
     filter: blur(200px);
@@ -23,7 +27,7 @@
 }
 
 .skills-container::before{
-    background: #9e51b9;
+    background: rgb(3, 133, 133);
     bottom: 0rem;
     right: 0rem;
 }
@@ -36,7 +40,7 @@
 .skills-container hr{
     width: 200px;
     height: 0.4rem;
-    background: #6751b9;
+    background: rgb(2, 104, 104);
     border-radius: 10px;
     margin: auto;
     margin-bottom: 20px;

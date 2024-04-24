@@ -27,7 +27,7 @@ function Hero() {
           <div className="tech-icon">
             <img src="./assets/images/node.png" alt="" />
           </div>
-          <img src="./assets/images/cho.png" alt="" style={{borderRadius:'40%',border:'4px solid cyan'}} />
+          <img src="./assets/images/cho.png" alt="" style={{borderRadius:'40%',border:'4px solid rgb(2, 78, 78)',boxShadow:'4px 4px 2px white'}} />
         </div>
         <div>
           <div className="tech-icon">

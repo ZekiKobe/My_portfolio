@@ -11,7 +11,7 @@ function SkillsinfoCard({heading,skills}) {
                     <React.Fragment key={`skill_${index}`}>
                         <div className="skill-info">
                             <p>{item.skill}</p>
-                            <p className="percentage">{item.percentage}</p>
+                            <p className="percentage"></p>
                         </div>
                         <div className="skill-progress-bg">
                             <div className="skill-progress" style={{width:item.percentage}}/>

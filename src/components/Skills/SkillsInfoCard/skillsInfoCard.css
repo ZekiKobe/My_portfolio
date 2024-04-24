@@ -2,7 +2,7 @@
 
     min-height: 23rem;
     border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
+    border: 1.5px solid rgb(3, 117, 117);
     background: rgba(22,17,47,0.398);
     backdrop-filter: blur(1rem);
 }
@@ -15,7 +15,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom: 1.5px solid #6751b9;
+    border-bottom: 1.5px solid rgb(2, 114, 114);
 }
 
 .skills-info-content{
@@ -49,7 +49,7 @@
 
     width: 0%;
     height: 0.5rem;
-    background: linear-gradient(90deg,#aa94fe -50%,#7d60e6 50%);
+    background: linear-gradient(90deg,#130647 -50%,#04ebef 50%);
     border-radius: 0.5rem;
     transition: all 0.5s ease;
 }

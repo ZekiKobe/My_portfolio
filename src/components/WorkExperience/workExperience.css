@@ -12,7 +12,7 @@
 .experience-container hr{
     width: 200px;
     height: 0.4rem;
-    background: #6751b9;
+    background: rgb(3, 126, 126);
     border-radius: 10px;
     margin: auto;
     margin-bottom: 20px;
@@ -29,7 +29,7 @@
     color: #6751b9;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
-    background: #130f2a;
+    background: rgb(3, 146, 146);
     position: absolute;
     top: 55%;
     z-index: 2;

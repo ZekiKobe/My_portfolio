@@ -31,9 +31,9 @@ form button{
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
-    border: 1.5px solid #a892fe;
+    border: 1.5px solid #038089;
     border-radius: 0.6rem;
-    background: linear-gradient(90deg,#a892fe 0%,#8064ea 100%);
+    background: linear-gradient(90deg,#171031 0%,#07f5f5 100%);
     padding: 0.7rem;
     transition: all 0.3s ease;
     cursor: pointer;

@@ -3,7 +3,7 @@
     position: relative;
     border: 1.5px solid rgb(68, 63, 86);
     padding: 5px;
-    box-shadow: 2px 2px 2px rgb(68,63,86);
+    box-shadow: 2px 2px 2px rgb(67, 133, 131);
     border-radius: 5px;
 }
 
@@ -19,7 +19,7 @@
 .education-container hr{
     height: 0.4rem;
     width: 200px;
-    background: #6751b9;
+    background: rgb(2, 67, 67);
     border-radius: 20px;
     position: relative;
     margin: auto;
@@ -42,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1.5px solid #6751b9;
+    border: 1.5px solid rgb(3, 97, 97);
     border-radius: 10px;
     padding: 1rem 0;
     flex: 1;

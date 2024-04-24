@@ -3,7 +3,7 @@
     margin: 4rem o;
     position: relative;
     padding: 2px;
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 2px 2px 2px cyan;
     border-radius: 10px;
 }
 
@@ -17,7 +17,7 @@
 .contact-container hr{
     width: 200px;
     height: 0.4rem;
-    background: #6751b9;
+    background: rgb(3, 128, 128);
     border-radius: 10px;
     margin: auto;
     margin-bottom: 20px;
@@ -43,7 +43,7 @@
 }
 .social-media-icons img:hover{
     cursor: pointer;
-    background: #6751b9;
+    background: rgb(4, 165, 165);
     border-radius: 50%;
 }
 @media(max-width:768px){
